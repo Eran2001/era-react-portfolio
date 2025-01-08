@@ -20,12 +20,12 @@ function Home() {
                 </span>
               </h1>
 
-              <h1 className="heading-name">
+              <h1 className="heading-name" style={{marginLeft: "5px"}}>
                 I&apos;M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> ERAN HASARELI</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 50, textAlign: "left", paddingLeft: "52px" }}>
                 <Type />
               </div>
             </Col>

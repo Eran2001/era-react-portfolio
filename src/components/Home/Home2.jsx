@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -22,23 +21,21 @@ function Home2() {
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I have intermediate knowledge of
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Javascript, Python.</b> and little bit of <b className="purple">PHP</b>
               </i>
               <br />
               <br />
               My field of Interest&apos;s are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple">Web Pages and Web Apps </b> and
+                also have interest in areas related to{" "}
+                <b className="purple">AI</b> and <b className="purple">Blockchain.</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
+              Whenever possible, I also apply my passion for developing web apps
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
@@ -48,7 +45,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js and Express.js</b>
               </i>
             </p>
           </Col>
@@ -67,7 +64,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Eran2001"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +74,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/eran-hasarali-11073021b/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +84,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/m__eran__h/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
