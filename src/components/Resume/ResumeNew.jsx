@@ -22,7 +22,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="/cv.pdf"
+            href="/era-cv.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
