@@ -1,11 +1,7 @@
-
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -23,15 +19,25 @@ function Home2() {
               <br />
               <br />I have intermediate knowledge of
               <i>
-                <b className="purple"> Javascript, Python.</b> and little bit of <b className="purple">PHP</b>
+                <b className="purple">Javascript, Python.</b>
+              </i>{" "}
+              and little bit of{" "}
+              <i>
+                <b className="purple">PHP</b>
               </i>
               <br />
               <br />
               My field of Interest&apos;s are building new &nbsp;
               <i>
-                <b className="purple">Web Pages and Web Apps </b> and
-                also have interest in areas related to{" "}
-                <b className="purple">AI</b> and <b className="purple">Blockchain.</b>
+                <b className="purple">Web Pages and Web Apps</b>
+              </i>{" "}
+              and also have interest in areas related to{" "}
+              <i>
+                <b className="purple">AI</b>
+              </i>{" "}
+              and{" "}
+              <i>
+                <b className="purple">Blockchain.</b>
               </i>
               <br />
               <br />
