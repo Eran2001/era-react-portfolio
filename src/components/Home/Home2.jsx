@@ -14,8 +14,8 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            <h1 style={{ fontSize: "2.6em", marginLeft: "-380px" }}>
+              Let Me <span className="purple"> Introduce </span> MySelf
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
@@ -57,7 +57,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>Find Me On</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
