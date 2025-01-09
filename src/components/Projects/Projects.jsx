@@ -18,10 +18,10 @@ function Projects() {
             <ProjectCard
               imgPath="/dumi-web.png"
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Graphic Designer Portfolio"
+              description="A modern and dynamic portfolio website built to highlight the talent and versatility of a graphic designer. The project focuses on creating an engaging online presence that attracts potential clients and collaborators by showcasing a curated selection of design works and professional achievements."
+              ghLink="https://github.com/Eran2001/new-neo-port"
+              demoLink="https://new-neo-port.vercel.app/"
             />
           </Col>
 
@@ -29,10 +29,10 @@ function Projects() {
             <ProjectCard
               imgPath="/fine-app.png"
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Fine Payment App"
+              description="A user-friendly and secure fine payment system designed to streamline the process of issuing and paying fines. The application allows users to manage their fines efficiently and enables officers to issue fines digitally, reducing paperwork and enhancing operational efficiency."
+              ghLink="https://github.com/Eran2001/fine-app-pern"
+              demoLink="https://fine-app-react.vercel.app/"
             />
           </Col>
 
@@ -40,10 +40,10 @@ function Projects() {
             <ProjectCard
               imgPath="/chan-web.png"
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Graphic Designer Portfolio"
+              description="This project involved designing and developing a responsive and visually captivating portfolio website for a graphic designer. The website showcases the designer's skills, creativity, and expertise in branding, interaction design, and social media banners. The goal was to attracts potential clients and collaborators."
+              ghLink="https://github.com/Eran2001/rumesh-portfolio"
+              demoLink="https://rumesh-portfolio-gilt.vercel.app/"              
             />
           </Col>
 
@@ -51,10 +51,10 @@ function Projects() {
             <ProjectCard
               imgPath="/tin-dog.png"
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Tin Dog App"
+              description="TinDog – Dog Friendship and Matchmaking App. TinDOg is a unique and engaging app designed to help dogs find companions, whether for friendship or love. The app creates a fun and social platform where dog owners can connect, arrange playdates, or even find the perfect match for their furry friends. Find the love of your dog's life or your money back."
+              ghLink="https://github.com/Eran2001/tin-dog-project"
+              demoLink="https://eran2001.github.io/tin-dog-project/"
             />
           </Col>
 
@@ -62,10 +62,10 @@ function Projects() {
             <ProjectCard
               imgPath="/inc-exp.png"
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Income and Expenses Tracker"
+              description="A simple yet efficient app designed to help users track their income and expenses effortlessly. This app enables users to manage their finances with ease and gain better control over their budget. This lightweight app provides a straightforward solution for personal finance management, making it ideal for individuals who want to keep their finances organized without complexity."
+              ghLink="https://github.com/Eran2001/income-expenses-react"
+              demoLink="https://income-expenses-react.vercel.app/"
             />
           </Col>
 
@@ -73,11 +73,10 @@ function Projects() {
             <ProjectCard
               imgPath="/blog.png"
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Blog App"
+              description="A blog platform designed for programmers to share knowledge, tutorials, and insights about various programming languages and technologies. and A hub for developers to learn, share, and grow. CodeSphere focuses on programming languages, tools, and frameworks, providing a space for both beginners and advanced coders."
+              ghLink="https://github.com/Eran2001/blog-app"
+              demoLink="https://blog-app-nine-red.vercel.app/"      
             />
           </Col>
 
@@ -85,11 +84,10 @@ function Projects() {
             <ProjectCard
               imgPath="/blog-stack.png"
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Blogger"
+              description="A blog platform for diverse content creators to share insights, stories, and knowledge about technology, lifestyle, travel, and personal development. LifePixels is a versatile blogging platform that caters to content creators from all walks of life. From tech enthusiasts to travel junkies, it provides a space for sharing insights and inspirations."
+              ghLink="https://github.com/Eran2001/blogger"
+              demoLink="#"
             />
           </Col>
 
@@ -97,11 +95,10 @@ function Projects() {
             <ProjectCard
               imgPath="/age-app.png"
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Age Calculator"
+              description="The Age Calculator App is a highly intuitive and user-friendly React-based application designed to help users calculate their exact age down to years, months, days, hours, minutes, and even seconds. Whether you want to know how long you’ve been on this planet or how much time has passed since a specific event, this app provides detailed insights and visualizations for a deeper understanding of time."
+              ghLink="https://github.com/Eran2001/age-calculator-react"
+              demoLink="https://eran2001.github.io/age-calculator-react/"
             />
           </Col>
 
@@ -109,11 +106,10 @@ function Projects() {
             <ProjectCard
               imgPath="/sample.png"
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Sample Project"
+              description="This is a sample blog project that I used to check how can we use hooks like useNavigate to navigate one to another route. and in here I checked some tailwind css compo styles for each section. and want to add much more things like using map to fetch all blog posts, and in the future I wanna add database to store post and share them with every users in this web app."
+              ghLink="#"
+              demoLink="#"
             />
           </Col>
 
@@ -121,11 +117,10 @@ function Projects() {
             <ProjectCard
               imgPath="/cap-1.png"
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Capstone Project 1"
+              description="In this Capstone Project I used HTML for building this page, and I want to ignore CSS in this tutorial. all I'm try to add only html and create a simple portfolio to show my skills, exp and etc, I think this is good one to have because it is so simple and much readable."
+              ghLink="https://github.com/Eran2001/capstone-pro-1"
+              demoLink="https://eran2001.github.io/capstone-pro-1/"
             />
           </Col>
 
@@ -133,11 +128,10 @@ function Projects() {
             <ProjectCard
               imgPath="/cap-2.png"
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Capstone Project 2"
+              description="This is another capstone project that I created using html, and in this one I want to add some css for styling, and I use some of images for look this little bit beautiful, and use some positioning to show some of por langs that I used to build web apps. and I think this is good one to have in my projects because this is simple and with simple css it looks nice"
+              ghLink="https://github.com/Eran2001/capstone-project-2"
+              demoLink="https://eran2001.github.io/capstone-project-2/" 
             />
           </Col>
 
@@ -145,11 +139,10 @@ function Projects() {
             <ProjectCard
               imgPath="/arc-app.png"
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Architecture Website"
+              description="I create this for showcase of architectural website, but this is still ongoing project, I don't have enough info and resources to end this one, but I think this is going to be a good one, instead of just HTML and CSS I used React in this web app to give smooth routing for users. in the end I think this is gonna be so good and wonderful web app with server side for handle apis and db to store users data."
+              ghLink="https://github.com/Eran2001/architecture-react"
+              demoLink="https://architecture-react.vercel.app/"
             />
           </Col>
         </Row>

@@ -603,6 +603,7 @@ button:focus {
 /* --------- */
 
 .resume-section {
+  height: 93.5vh;
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
