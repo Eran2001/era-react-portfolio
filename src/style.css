@@ -742,3 +742,21 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+@media (max-width: 1399px) {
+  .home-res-new {
+    padding-left: 120px !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .home-res-new {
+    padding-left: 240px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .home-res-new {
+    padding-left: 360px !important;
+  }
+}

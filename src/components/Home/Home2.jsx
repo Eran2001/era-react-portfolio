@@ -10,7 +10,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em", marginLeft: "-380px" }}>
+            <h1 className="home-res-new" style={{ fontSize: "2.6em", marginLeft: "-380px" }}>
               Let Me <span className="purple"> Introduce </span> MySelf
             </h1>
             <p className="home-about-body">
