@@ -31,8 +31,8 @@ function Projects() {
               isBlog={false}
               title="Fine Payment App"
               description="A user-friendly and secure fine payment system designed to streamline the process of issuing and paying fines. The application allows users to manage their fines efficiently and enables officers to issue fines digitally, reducing paperwork and enhancing operational efficiency."
-              ghLink="https://github.com/Eran2001/fine-app-pern"
-              demoLink="https://fine-app-react.vercel.app/"
+              ghLink="https://github.com/Eran2001/fine-payment"
+              demoLink="https://fine-payment-react.vercel.app/"
             />
           </Col>
 
