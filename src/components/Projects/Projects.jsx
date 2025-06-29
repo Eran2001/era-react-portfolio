@@ -25,7 +25,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath="/fine-app.png"
               isBlog={false}
@@ -34,7 +34,7 @@ function Projects() {
               ghLink="https://github.com/Eran2001/fine-payment"
               demoLink="https://fine-pay.vercel.app/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -43,11 +43,11 @@ function Projects() {
               title="Graphic Designer Portfolio"
               description="This project involved designing and developing a responsive and visually captivating portfolio website for a graphic designer. The website showcases the designer's skills, creativity, and expertise in branding, interaction design, and social media banners. The goal was to attracts potential clients and collaborators."
               ghLink="https://github.com/Eran2001/rumesh-portfolio"
-              demoLink="https://rumesh-portfolio-gilt.vercel.app/"              
+              demoLink="https://rumesh-portfolio-gilt.vercel.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath="/tin-dog.png"
               isBlog={false}
@@ -56,7 +56,7 @@ function Projects() {
               ghLink="https://github.com/Eran2001/tin-dog-project"
               demoLink="https://eran2001.github.io/tin-dog-project/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -69,7 +69,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath="/blog.png"
               isBlog={false}
@@ -78,9 +78,9 @@ function Projects() {
               ghLink="https://github.com/Eran2001/blog-app"
               demoLink="https://blog-app-nine-red.vercel.app/"      
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath="/blog-stack.png"
               isBlog={false}
@@ -89,9 +89,9 @@ function Projects() {
               ghLink="https://github.com/Eran2001/blogger"
               demoLink="#"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath="/age-app.png"
               isBlog={false}
@@ -100,9 +100,9 @@ function Projects() {
               ghLink="https://github.com/Eran2001/age-calculator-react"
               demoLink="https://eran2001.github.io/age-calculator-react/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath="/sample.png"
               isBlog={false}
@@ -111,9 +111,9 @@ function Projects() {
               ghLink="#"
               demoLink="#"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath="/cap-1.png"
               isBlog={false}
@@ -122,9 +122,9 @@ function Projects() {
               ghLink="https://github.com/Eran2001/capstone-pro-1"
               demoLink="https://eran2001.github.io/capstone-pro-1/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath="/cap-2.png"
               isBlog={false}
@@ -133,9 +133,9 @@ function Projects() {
               ghLink="https://github.com/Eran2001/capstone-project-2"
               demoLink="https://eran2001.github.io/capstone-project-2/" 
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath="/arc-app.png"
               isBlog={false}
@@ -144,7 +144,7 @@ function Projects() {
               ghLink="https://github.com/Eran2001/architecture-react"
               demoLink="https://architecture-react.vercel.app/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
