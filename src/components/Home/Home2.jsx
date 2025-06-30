@@ -10,54 +10,74 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 className="home-res-new" style={{ fontSize: "2.6em", marginLeft: "-380px" }}>
-              Let Me <span className="purple"> Introduce </span> MySelf
+            <h1
+              className="home-res-new"
+              style={{ fontSize: "2.6em", marginLeft: "-380px" }}
+            >
+              Let Me <span className="purple"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I have intermediate knowledge of
+              My journey into the tech world began with a deep interest in{" "}
+              <b className="purple">Python</b>, which helped me build a strong
+              foundation in programming logic. Over time, I expanded my skills
+              into
               <i>
-                <b className="purple">Javascript, Python.</b>
+                {" "}
+                <b className="purple">JavaScript</b>{" "}
               </i>{" "}
-              and little bit of{" "}
-              <i>
-                <b className="purple">PHP</b>
-              </i>
+              and explored both the frontend and backend sides of development.
               <br />
               <br />
-              My field of Interest&apos;s are building new &nbsp;
-              <i>
-                <b className="purple">Web Pages and Web Apps</b>
-              </i>{" "}
-              and also have interest in areas related to{" "}
-              <i>
-                <b className="purple">AI</b>
-              </i>{" "}
-              and{" "}
-              <i>
-                <b className="purple">Blockchain.</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing web apps
-              with <b className="purple">Node.js</b> and
+              I'm currently focusing on becoming a{" "}
+              <b className="purple">Full-Stack JavaScript Developer</b>, with
+              hands-on experience using tools like
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  React.js, Tailwind CSS, Node.js, Express.js
                 </b>
               </i>
-              &nbsp; like
+              , and working with databases such as{" "}
+              <b className="purple">PostgreSQL ,</b>{" "}
+              <b className="purple">MySQL</b> and{" "}
+              <b className="purple">MongoDB</b>.
+              <br />
+              <br />I also have working knowledge of{" "}
               <i>
-                <b className="purple"> React.js and Express.js</b>
+                <b className="purple">PHP</b>
+              </i>{" "}
+              and{" "}
+              <i>
+                <b className="purple">Laravel</b>
               </i>
+              , and I’m learning <b className="purple">GoLang</b> and{" "}
+              <b className="purple">Java</b> for backend development.
+              <br />
+              <br />
+              My passion lies in creating dynamic and user-friendly{" "}
+              <i>
+                <b className="purple">Web Pages and Web Applications</b>
+              </i>
+              . I'm also fascinated by emerging technologies like{" "}
+              <i>
+                <b className="purple">Artificial Intelligence</b>
+              </i>{" "}
+              and{" "}
+              <i>
+                <b className="purple">Blockchain</b>
+              </i>
+              , and I aim to explore these fields further.
+              <br />
+              <br />
+              I'm always eager to take on new challenges and apply my knowledge
+              in practical projects. Whether it's designing clean UIs or
+              building scalable APIs, I strive to improve every day as a
+              developer and problem-solver.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid " alt="avatar" />
             </Tilt>
           </Col>
         </Row>

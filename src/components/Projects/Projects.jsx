@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import drive_lk from "../../Assets/Drive Lanka.png";
+import hotel_form from "../../Assets/hotel_form.png";
 
 function Projects() {
   return (
@@ -56,6 +57,17 @@ function Projects() {
               description="This project involved designing and developing a responsive and visually captivating portfolio website for a graphic designer. The website showcases the designer's skills, creativity, and expertise in branding, interaction design, and social media banners. The goal was to attracts potential clients and collaborators."
               ghLink="https://github.com/Eran2001/rumesh-portfolio"
               demoLink="https://rumesh-portfolio-gilt.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hotel_form}
+              isBlog={false}
+              title="Hotel Registration Form"
+              description="This is simple user registration form for hotels that can easily get user info in to their databases. So don't need to fill user registration forms manually and also this have solid form validation that only add respective infos."
+              ghLink="https://github.com/Eran2001/new-user-form"
+              demoLink="https://new-user-form-nine.vercel.app/"
             />
           </Col>
 

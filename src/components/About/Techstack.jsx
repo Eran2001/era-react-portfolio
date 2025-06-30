@@ -1,4 +1,5 @@
 import { Col, Row } from "react-bootstrap";
+import { FaGolang, FaJava, FaSass } from "react-icons/fa6";
 import {
   DiJavascript1,
   DiReact,
@@ -15,19 +16,20 @@ import {
   SiMysql,
   SiExpress,
   SiPhp,
+  SiMongodb,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPhp />
@@ -36,7 +38,19 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact/>
+        <FaGolang />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJqueryLogo />
@@ -48,16 +62,16 @@ function Techstack() {
         <DiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <FaSass />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
+        <SiMongodb />
       </Col>
     </Row>
   );
