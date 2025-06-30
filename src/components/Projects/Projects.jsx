@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import drive_lk from "../../Assets/Drive Lanka.png";
 
 function Projects() {
   return (
@@ -14,6 +15,17 @@ function Projects() {
           Here are a few projects I&apos;ve worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={drive_lk}
+              isBlog={false}
+              title="Drive Lanka - Vehicle Rental"
+              description="The platform features a responsive design, dynamic navigation with hover effects, and a streamlined booking process, ensuring a hassle-free experience for tourists and locals alike. Showcasing a diverse fleet, transparent pricing, and 24/7 customer support, Drive Lanka is the go-to choice for reliable and affordable transportation."
+              ghLink="https://github.com/Eran2001/tourism-sri-lanka"
+              demoLink="https://drive-lanka.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath="/dumi-web.png"
