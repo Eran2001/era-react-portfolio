@@ -198,9 +198,7 @@ button:focus {
   width: 100%;
 }
 
-/* --------- */
 /* Home section */
-/* --------- */
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.1s; /* Change to speed up or slow down */
@@ -215,7 +213,7 @@ button:focus {
   }
   10% {
     transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
+  } 
   20% {
     transform: rotate(-8deg);
   }
@@ -230,7 +228,7 @@ button:focus {
   }
   60% {
     transform: rotate(0deg);
-  } /* Reset for the last half to pause */
+  } 
   100% {
     transform: rotate(0deg);
   }
@@ -391,9 +389,7 @@ button:focus {
   color: #700c86 !important;
 }
 
-/* --------- */
 /* Footer */
-/* --------- */
 .footer {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
@@ -434,9 +430,8 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
-/* --------- */
+
 /* Projects */
-/* --------- */
 .project-section {
   position: relative !important;
   padding-top: 150px !important;
@@ -531,10 +526,7 @@ button:focus {
   padding-top: 10px !important;
 }
 
-/* --------- */
 /* About */
-/* --------- */
-
 .about-section {
   position: relative !important;
   padding-top: 150px !important;
@@ -591,10 +583,8 @@ button:focus {
     padding-top: 0 !important;
   }
 }
-/* --------- */
-/* Resume */
-/* --------- */
 
+/* Resume */
 .resume-section {
   height: 93.5vh;
   position: relative !important;
