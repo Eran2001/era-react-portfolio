@@ -22,7 +22,6 @@ button:focus {
   box-shadow: none !important;
 }
 
-/*  Preloader */
 #preloader {
   position: fixed;
   top: 0;
@@ -45,29 +44,24 @@ button:focus {
   height: 100vh;
 }
 
-/*Scrollbar   */
 ::-webkit-scrollbar {
   width: 7px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #2d1950;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgba(178, 121, 216, 0.959);
   border-radius: 12px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(222, 130, 235, 0.911);
   border-radius: 12px;
 }
 
-/* Navbar Section  */
 .sticky {
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;
@@ -198,7 +192,6 @@ button:focus {
   width: 100%;
 }
 
-/* Home section */
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.1s; /* Change to speed up or slow down */
