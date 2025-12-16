@@ -36,14 +36,13 @@ function ProjectCards(props) {
   );
 }
 
-// Define prop types
 ProjectCards.propTypes = {
-  imgPath: PropTypes.string.isRequired, // Path to the image
-  title: PropTypes.string.isRequired, // Title of the project
-  description: PropTypes.string.isRequired, // Description of the project
-  ghLink: PropTypes.string.isRequired, // GitHub link
-  isBlog: PropTypes.bool, // Whether it's a blog or not (default is false)
-  demoLink: PropTypes.string, // Demo link (optional)
+  imgPath: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired, 
+  ghLink: PropTypes.string.isRequired, 
+  isBlog: PropTypes.bool, 
+  demoLink: PropTypes.string,
 };
 
 // Define default props for optional props
